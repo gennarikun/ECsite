@@ -92,8 +92,20 @@ table{
 	left:220px;
 }
 
+.btn-four{
+	position:absolute;
+	top:0;
+	left:345px;
+}
+
 .btn-three:hover{
 	background-color:black;
+	transition:all 0.5s ease-in;
+	color:white;
+}
+
+.btn-four:hover{
+	background-color:blue;
 	transition:all 0.5s ease-in;
 	color:white;
 }

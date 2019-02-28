@@ -38,18 +38,18 @@
 <result name="error">error.jsp</result>
 </action>
 
-<!-- <action name="UserCreateAction" class="com.internousdev.ecsite2.action.UserCreateAction" method="execute"> -->
-<!-- <result name="success">userCreate.jsp</result> -->
-<!-- </action> -->
+<action name="UserCreateAction" class="com.internousdev.ecsite2.action.UserCreateAction" method="execute">
+<result name="success">userCreate.jsp</result>
+</action>
 
-<!-- <action name="UserCreateConfirmAction" class="com.internousdev.ecsite2.action.UserCreateConfirmAction" method="execute"> -->
-<!-- <result name="success">userCreateConfirm.jsp</result> -->
-<!-- <result name="error">userCreate.jsp</result> -->
-<!-- </action> -->
+<action name="UserCreateConfirmAction" class="com.internousdev.ecsite2.action.UserCreateConfirmAction" method="execute">
+<result name="success">userCreateConfirm.jsp</result>
+<result name="error">userCreate.jsp</result>
+</action>
 
-<!-- <action name="UserCreateCompleteAction" class="com.internousdev.ecsite2.action.UserCreateCompleteAction" method="execute"> -->
-<!-- <result name="success">userCreateComplete.jsp</result> -->
-<!-- </action> -->
+<action name="UserCreateCompleteAction" class="com.internousdev.ecsite2.action.UserCreateCompleteAction" method="execute">
+<result name="success">userCreateComplete.jsp</result>
+</action>
 
 
 <action name="BuyItemAction" class="com.internousdev.ecsite2.action.BuyItemAction" method="execute">
@@ -66,65 +66,65 @@
 
 
 
-<!-- <action name="MyPageAction" class="com.internousdev.ecsite2.action.MyPageAction" method="execute"> -->
-<!-- <result name="success">myPage.jsp</result> -->
-<!-- <result name="error">error.jsp</result> -->
+<action name="MyPageAction" class="com.internousdev.ecsite2.action.MyPageAction" method="execute">
+<result name="success">myPage.jsp</result>
+<result name="error">error.jsp</result>
 
-<!-- </action> -->
+</action>
 
-<!-- <action name="LogoutAction" class="com.internousdev.ecsite2.action.LogoutAction" method="execute"> -->
-<!-- <result name="success">home.jsp</result> -->
-<!-- </action> -->
+<action name="LogoutAction" class="com.internousdev.ecsite2.action.LogoutAction" method="execute">
+<result name="success">home.jsp</result>
+</action>
 
-<!-- <action name="AdminAction" class="com.internousdev.ecsite2.action.AdminAction" method="execute"> -->
-<!-- <result name="success">admin.jsp</result> -->
-<!-- </action> -->
+<action name="AdminAction" class="com.internousdev.ecsite2.action.AdminAction" method="execute">
+<result name="success">admin.jsp</result>
+</action>
 
-<!-- <action name="ItemCreateAction" class="com.internousdev.ecsite2.action.ItemCreateAction" method="execute"> -->
-<!-- <result name="success">itemCreate.jsp</result> -->
-<!-- </action> -->
+<action name="ItemCreateAction" class="com.internousdev.ecsite2.action.ItemCreateAction" method="execute">
+<result name="success">itemCreate.jsp</result>
+</action>
 
-<!-- <action name="ItemCreateConfirmAction" class="com.internousdev.ecsite2.action.ItemCreateConfirmAction" method="execute"> -->
-<!-- <result name="success">itemCreateConfirm.jsp</result> -->
-<!-- <result name="error">itemCreate.jsp</result> -->
-<!-- </action> -->
+<action name="ItemCreateConfirmAction" class="com.internousdev.ecsite2.action.ItemCreateConfirmAction" method="execute">
+<result name="success">itemCreateConfirm.jsp</result>
+<result name="error">itemCreate.jsp</result>
+</action>
 
-<!-- <action name="ItemCreateCompleteAction" class="com.internousdev.ecsite2.action.ItemCreateCompleteAction" method="execute"> -->
-<!-- <result name="success">itemCreateComplete.jsp</result> -->
-<!-- <result name="error">itemCreate.jsp</result> -->
-<!-- </action> -->
+<action name="ItemCreateCompleteAction" class="com.internousdev.ecsite2.action.ItemCreateCompleteAction" method="execute">
+<result name="success">itemCreateComplete.jsp</result>
+<result name="error">itemCreate.jsp</result>
+</action>
 
-<!-- <action name="ItemListAction" class="com.internousdev.ecsite2.action.ItemListAction" method="execute"> -->
-<!-- <result name="success">itemList.jsp</result> -->
-<!-- </action> -->
+<action name="ItemListAction" class="com.internousdev.ecsite2.action.ItemListAction" method="execute">
+<result name="success">itemList.jsp</result>
+</action>
 
-<!-- <action name="UserListAction" class="com.internousdev.ecsite2.action.UserListAction" method="execute"> -->
-<!-- <result name="success">userList.jsp</result> -->
-<!-- </action> -->
+<action name="UserListAction" class="com.internousdev.ecsite2.action.UserListAction" method="execute">
+<result name="success">userList.jsp</result>
+</action>
 
-<!-- <action name="ItemListDeleteConfirmAction" class="com.internousdev.ecsite2.action.ItemListDeleteConfirmAction" method="execute"> -->
-<!-- <result name="success">itemListDeleteConfirm.jsp</result> -->
-<!-- </action> -->
+<action name="ItemListDeleteConfirmAction" class="com.internousdev.ecsite2.action.ItemListDeleteConfirmAction" method="execute">
+<result name="success">itemListDeleteConfirm.jsp</result>
+</action>
 
-<!-- <action name="ItemListDeleteCompleteAction" class="com.internousdev.ecsite2.action.ItemListDeleteCompleteAction" method="execute"> -->
-<!-- <result name="success">itemListDeleteComplete.jsp</result> -->
-<!-- </action> -->
+<action name="ItemListDeleteCompleteAction" class="com.internousdev.ecsite2.action.ItemListDeleteCompleteAction" method="execute">
+<result name="success">itemListDeleteComplete.jsp</result>
+</action>
 
-<!-- <action name="UserListDeleteConfirmAction" class="com.internousdev.ecsite2.action.UserListDeleteConfirmAction" method="execute"> -->
-<!-- <result name="success">userListDeleteConfirm.jsp</result> -->
-<!-- </action> -->
+<action name="UserListDeleteConfirmAction" class="com.internousdev.ecsite2.action.UserListDeleteConfirmAction" method="execute">
+<result name="success">userListDeleteConfirm.jsp</result>
+</action>
 
-<!-- <action name="UserListDeleteCompleteAction" class="com.internousdev.ecsite2.action.UserListDeleteCompleteAction" method="execute"> -->
-<!-- <result name="success">userListDeleteComplete.jsp</result> -->
-<!-- </action> -->
+<action name="UserListDeleteCompleteAction" class="com.internousdev.ecsite2.action.UserListDeleteCompleteAction" method="execute">
+<result name="success">userListDeleteComplete.jsp</result>
+</action>
 
-<!-- <action name="InquiryAction" class="com.internousdev.ecsite2.action.InquiryAction" method="execute"> -->
-<!-- <result name="success">inquiry.jsp</result> -->
-<!-- </action> -->
+<action name="InquiryAction" class="com.internousdev.ecsite2.action.InquiryAction" method="execute">
+<result name="success">inquiry.jsp</result>
+</action>
 
-<!-- <action name="InquiryCompleteAction" class="com.internousdev.ecsite2.action.InquiryCompleteAction" method="execute"> -->
-<!-- <result name="success">inquiryComplete.jsp</result> -->
-<!-- </action> -->
+<action name="InquiryCompleteAction" class="com.internousdev.ecsite2.action.InquiryCompleteAction" method="execute">
+<result name="success">inquiryComplete.jsp</result>
+</action>
 
 </package>
 </struts>

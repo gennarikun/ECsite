@@ -45,14 +45,6 @@ table{
 	height:500px;
 	text-align:center;
 }
-#footer{
-	width:100%;
-	height:80px;
-	background-color:black;
-	clear:both;
-	margin-bottom:0;
-}
-
 
 table.inputTable-mini {
 	margin: 30px;
@@ -109,6 +101,12 @@ table.inputTable-mini td input[type="password"] {
 
 table.inputTable-mini, th, td {
 	border-collapse: collapse;
+}
+
+.notFoundMsgBox
+{
+	text-align:center;
+	font-size: 2em;
 }
 		</style>
 		<script>
